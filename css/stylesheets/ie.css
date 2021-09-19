@@ -1,0 +1,10 @@
+/* line 1, ../sass/ie.scss */
+.banner {
+  background: none;
+  background: white url("../../img/banner.png") no-repeat 50% 50%;
+}
+
+/* line 6, ../sass/ie.scss */
+.internal-banner {
+  background-color: #fefefe;
+}

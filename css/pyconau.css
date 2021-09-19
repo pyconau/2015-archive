@@ -1,0 +1,104 @@
+body {
+  background: url(/img/mcec_mini.jpg) no-repeat center center fixed;
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+}
+
+@font-face {
+    font-family: 'Flux Regular';
+    src: url('/fonts/FLUXRegular.ttf');
+}
+
+.wrapper {
+    background-color: rgba(255, 255, 255, 0.9);
+    border-radius: 6px;
+    padding: 1em;
+}
+
+h1,h2,h3,h4,h5 {
+    font-family: 'Flux Regular';
+}
+
+.font-flux {
+    font-family: 'Flux Regular';
+}
+
+.nav-head {
+    font-weight: bold;
+    margin-left: .5em;
+}
+
+#t-shirt td {
+    padding-right: 2em;
+}
+
+.prices th {
+    padding-right: 2em;
+}
+
+.prices td {
+    padding-right: 2em;
+}
+
+td {
+    padding-right: 1em;
+}
+
+th {
+    padding-right: 1em;
+}
+
+.mandatory {
+  color: #ff0000;
+  background: inherit;
+  margin-right: 5px;
+  float: left;
+}
+
+ul.entries {
+  list-style-type: none;
+}
+
+
+.graph-bar-sold
+{
+  background-color: #FF2233;
+  height: 20px;
+  float: left;
+}
+
+.graph-bar-available
+{
+  background-color: #BBDD99;
+  height: 20px;
+  float: left;
+}
+
+#programme td, #programme th {
+  text-align: center;
+  font-size: 13px;
+  vertical-align: middle;
+  border-right: 1px solid #ccc;
+}
+
+#programme td {
+  border-bottom: 1px solid #ccc;
+}
+
+#programme td i, #programme th i {
+  font-style: italic;
+}
+
+#programme .programme_break {
+  background-color: #ececec;
+}
+
+#programme .programme_plenary {
+  background-color: #d7dfe5;
+}
+
+#programme .multi {
+  background-color: #d2e7db;
+}
